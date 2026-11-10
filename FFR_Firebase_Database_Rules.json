@@ -1,0 +1,6 @@
+{
+  "rules": {
+    ".read": "auth != null && auth.token.email_verified == true && (auth.token.email == 'jill.landrie@gmail.com' || auth.token.email == 'lavender.akinyi.ke@gmail.com')",
+    ".write": "auth != null && auth.token.email_verified == true && (auth.token.email == 'jill.landrie@gmail.com' || auth.token.email == 'lavender.akinyi.ke@gmail.com')"
+  }
+}
